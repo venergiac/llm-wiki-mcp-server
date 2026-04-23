@@ -1,6 +1,7 @@
 
 ![github](https://img.shields.io/badge/github-repo-blue?logo=github)
 ![ai](https://img.shields.io/badge/ai-rag-green)
+![license](https://img.shields.io/badge/license-Apache_2.0-blue?logo=apache)
 [![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
 
 <div align="center">
@@ -213,4 +214,9 @@ cat data/wiki/python-guide.md
 # Talk to Claude: "What's in the Python page?"
 # Claude uses the read_wiki_page tool to get content
 ```
+
+## License
+
+This project is licensed under the Apache License, Version 2.0.
+See the [LICENSE](LICENSE) file for details.
 
