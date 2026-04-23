@@ -4,7 +4,7 @@
 [![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
 
 <div align="center">
-  <img src="logo_LLM_wiki.png" width="50">
+  <img src="logo_LLM_wiki.png" width="200">
 </div>
 
 # LLM Wiki Concept - MCP Server and Servier based on Ollama
