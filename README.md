@@ -1,6 +1,6 @@
 
 ![github](https://img.shields.io/badge/github-repo-blue?logo=github)
-![ai](https://img.shields.io/badge/physical_ai-rag-green)
+![ai](https://img.shields.io/badge/ai-rag-green)
 [![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
 
 <div align="center">
