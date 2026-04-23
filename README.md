@@ -8,7 +8,7 @@
   <img src="logo_LLM_wiki.png" width="200">
 </div>
 
-# LLM Wiki Concept - MCP Server and Servier based on Ollama
+# LLM Wiki Concept - MCP Server and Server based on Ollama
 
 The LLM Wiki concept, popularized by Andrej Karpathy, moves away from traditional Retrieval-Augmented Generation (RAG). Instead of searching through raw documents every time you ask a question, the LLM actively compiles and maintains a structured knowledge base (a "Wiki" of markdown files).
 
