@@ -3,7 +3,7 @@
 ![ai](https://img.shields.io/badge/physical_ai-rag-green)
 [![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
 
-![logo_LLM_wiki.png](logo_LLM_wiki.png)
+![logo_LLM_wiki.png](logo_LLM_wiki.png){ width=20% }
 
 # LLM Wiki Concept - MCP Server and Servier based on Ollama
 
