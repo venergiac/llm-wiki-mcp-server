@@ -31,13 +31,13 @@ llm-wiki-framework/
 ├── requirements.txt             # Python dependencies
 ├── src/
 │   ├── main.py                  # File watcher and processor orchestrator
-│   ├── processor.py             # LLM-based content creation and merging
+│   ├── processor.py             # ⚙️ /The Boss/ LLM-based content creation and merging
 │   ├── mcp_server.py            # MCP server for Claude integration
 │   └── utils.py                 # File I/O and markdown utilities
 ├── data/
-│   ├── raw/                     # Drop new documents here
+│   ├── raw/                     # 🚩 /The Boss/ Drop new documents here
 │   │   └── processed/           # Automatically moved after ingestion
-│   └── wiki/                    # Generated wiki pages (markdown)
+│   └── wiki/                    # 📚 /The Library/ Generated wiki pages (markdown)
 ├── schema/
 │   └── system_prompt.md         # LLM instructions for wiki architect
 ├── claude_desktop_config.json   # MCP server configuration
