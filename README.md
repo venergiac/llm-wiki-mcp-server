@@ -3,6 +3,8 @@
 ![ai](https://img.shields.io/badge/physical_ai-rag-green)
 [![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
 
+![LLM_wiki_logo.png](LLM_wiki_logo.png)
+
 # LLM Wiki Concept - MCP Server and Servier based on Ollama
 
 The LLM Wiki concept, popularized by Andrej Karpathy, moves away from traditional Retrieval-Augmented Generation (RAG). Instead of searching through raw documents every time you ask a question, the LLM actively compiles and maintains a structured knowledge base (a "Wiki" of markdown files).
@@ -209,12 +211,4 @@ cat data/wiki/python-guide.md
 # Talk to Claude: "What's in the Python page?"
 # Claude uses the read_wiki_page tool to get content
 ```
-
-## Notes
-
-- All file operations use UTF-8 encoding
-- Wiki page titles are automatically normalized (lowercase, hyphens for spaces)
-- Cross-references are updated automatically after each ingestion cycle
-- The MCP server uses stdio for communication (compatible with Claude Desktop)
-- Markdown formatting is preserved and enhanced with cross-references
 
