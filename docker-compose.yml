@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  llm-wiki:
+    build: .
+    container_name: llm-wiki
+    volumes:
+      - ./data:/app/data
+      - ./schema:/app/schema
+      - ./src:/app/src
+      - ./README.md:/app/README.md:ro
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_MODEL: qwen3
+      WIKI_RAW_DIR: /app/data/raw
+      WIKI_OUTPUT_DIR: /app/data/wiki
+      SYSTEM_PROMPT_PATH: /app/schema/system_prompt.md
+    command: ["python", "src/main.py", "--watch"]
+    depends_on:
+      - ollama
+
+  mcp-server:
+    build: .
+    container_name: llm-wiki-mcp
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    environment:
+      WIKI_RAW_DIR: /app/data/raw
+      WIKI_OUTPUT_DIR: /app/data/wiki
+    command: ["python", "src/mcp_server.py"]
+    stdin_open: true
+    tty: true
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama-server
+    volumes:
+      - C:\Users\admin\.ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+    #command: ["server", "--port", "11434"]
